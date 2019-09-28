@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const port = 80; //The server will run on port 80
+const port = process.env.PORT || 3000; //The server will run on port 80
 
 app.use(express.json());
 
