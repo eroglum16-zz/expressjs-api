@@ -12,7 +12,7 @@ There run the command below:
 
 `$ node index.js`
 
-Application will reachable on http://localhost:3000 
+Application will reachable on http://localhost:80 
 
 ## Endpoint
 Only endpoint of the application is its root endpoint ('/'). 
