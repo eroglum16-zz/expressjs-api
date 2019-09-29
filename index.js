@@ -48,7 +48,7 @@ app.post('/', (req, res) => {
                     totalCount  =   record.counts.reduce((a, b) => a + b, 0);
 
                     //Check if the sum is between the specified limits
-                    if (totalCount > criteria.minCount && totalCount < criteria.maxCount){
+                    if (totalCount >= criteria.minCount && totalCount <= criteria.maxCount){
                         //Create the record object with necessary members and push it in the records array of the response
                         data.push(
                             {
